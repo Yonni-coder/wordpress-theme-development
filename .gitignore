@@ -1,0 +1,57 @@
+# Environment
+.env
+
+# WordPress
+/wp-config.php
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/backups/
+
+# Common plugin/theme build artifacts
+/wp-content/plugins/*/node_modules/
+/wp-content/plugins/*/vendor/
+/wp-content/themes/*/node_modules/
+/wp-content/themes/*/vendor/
+
+# Composer
+/vendor/
+
+# Node
+node_modules/
+
+# Logs, databases, archives
+*.log
+*.sql
+*.sql.gz
+*.tar
+*.zip
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Docker / local overrides
+docker-compose.override.yml
+docker-compose.*.yml
+
+# PHP / testing
+phpunit.xml
+*.phpunit.result.cache
+
+# SSH keys
+.ssh/
+
+# Ignore any local env variants
+.env.*
+
